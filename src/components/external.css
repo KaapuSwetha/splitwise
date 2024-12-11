@@ -1,0 +1,1680 @@
+.card-container {
+  background-color: white;
+  padding-right: 30px;
+  width: 400px;
+  height: 100vh;
+}
+.containers {
+ height: 70px;
+ background-color: #f0f2f5;
+ width: 399px;
+ margin-left: -24px;
+}
+.search-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 15px;
+  top: 45%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #000;
+}
+
+.search-input {
+  width: 360px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #f0f2f5;
+  font-size: 20px;
+  padding-left: 50px;
+}
+.group{
+  border-radius: 20px; 
+  margin-right: 20px;
+   border: 0;
+   padding: 3px;
+   width: 60px;
+   color: #ccc;
+   
+}
+.group:hover{
+  background-color:#4CAF50;
+  color: #000;
+}
+.customDiv {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  flex-wrap: wrap;
+}
+.customSpan {
+  text-transform: capitalize;
+  font-size: 17px;
+  margin-left: 10px;
+}
+
+.friend-images {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-top: -20px;
+}
+.friendDiv {
+  color: gray;
+  margin-top: 10px;
+  font-style: inherit;
+}
+.customH6 {
+  font-size: 13px;
+  font-style: inherit;
+}
+.customStyle {
+  margin-right: -10px;
+  height: fit-container;
+  width: fit-container;
+}
+
+.chatContainer {
+  height: 100vh;
+  width: 71%;
+  background-color: #f0f2f5;
+}
+.containerBackground {
+  background-color: #d3d3d3;
+  height: 100vh;
+  width: 1000px;
+  overflow-y: hidden;
+}
+
+.headerBackground {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  height: 70px;
+  background-color: #f0f2f5;
+}
+.profileImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 15px;
+  margin-top: -5px;
+}
+
+.usernameText {
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.paragraphStyle {
+  font-size: 14px;
+  color: gray;
+  margin-top: -5px;
+}
+.customBox {
+  padding: 2px;
+  border-radius: 10px;
+  text-align: left;
+  max-width: 50%;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 15px;
+}
+.customPaymentBox {
+  padding: 8px;
+  border-radius: 10px;
+  text-align: left;
+  width: 200px;
+  margin-left: 10px;
+  margin-right: 50px;
+  margin-top: 3px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 15px;
+}
+.paymentImage{
+    margin-left: -40px;
+    margin-right: 20px;
+}
+.paymentIcon{
+    font-size: 15px;
+    margin-left: 170px;
+    margin-top: -20px;
+}
+.chatTime{
+  display: inline-block;
+  margin-top: -5px;
+  padding-left: 10px;
+  text-align: right;
+  margin-left: 5px;
+}
+.chatTimes{
+  margin-top: -5px;
+  padding-left: 10px;
+  text-align: right;
+  margin-left: 5px;
+  font-size: 11px;
+}
+.message-check {
+  font-size: 13px;
+  color: gray;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.messagetime {
+  font-size: 11px;
+  color: gray;
+  margin-left: 5px;
+}
+.footer {
+    background-color: #f0f2f5;
+    height: 60px;
+    margin-top: 410px;
+    bottom: 0;
+    position: fixed;
+    width: 980px;
+}
+.attachmentIcon {
+  margin-left: 40px;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+  input {
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+  button {
+    margin-top: 10px;
+  } 
+  .input1:hover{
+       background-color: aquamarine;
+  }
+.inputField{
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.submitButton {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.submitButton:hover {
+  background-color: #45a049;
+}
+.cardBox{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+}
+.chat {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+.btn-alignment {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.modal.show {
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+}
+.modal-dialog-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+.status-message {
+  margin-top: 10px;
+  color: red;
+}
+.friendCard {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+}
+.friendImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  padding: 10px;
+}
+.friendsList {
+  margin-top: 20px;
+}
+.inputField {
+  width: 300px;
+  height: 30px;
+}
+.submitButton {
+  margin-top: 10px;
+  padding: 5px 10px;
+}
+.cardBox {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 400px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.modal {
+  position: fixed;
+  flex-wrap: wrap;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.modal-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.modal-title {
+  margin: 0;
+}
+
+.modal-body {
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+
+.form-control {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.status-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.friend-details {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.friend-details h2 {
+  margin: 0;
+  margin-right: 5px;
+}
+.friend-details button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.chats{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 400px;
+  padding: 10px;
+  gap:220px;
+}
+.name{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding-top: 10px;
+  
+}
+.friend-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.friend-container:hover{
+  background-color: #f0f2f5;
+  border-radius: 5px;
+ width:375px;
+ 
+}
+.friend-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+.friend-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0dbdb;
+  padding-top: 12px;
+  padding-bottom: 9px;
+  flex-wrap: wrap;
+  width: 280px;
+}
+
+.name {
+  margin-left: 10px; 
+}
+.buttons123 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  margin-left: -30px;
+  flex-wrap: wrap;
+}
+
+.move-left {
+  margin-left: -20px; 
+}
+.user{
+  margin-right: 10px;
+  overflow-y: auto;
+
+  
+}
+.usernameFriend{
+  display: flex;
+  flex-direction: row;
+  gap: 750px;
+  margin-top: 10px;
+  
+}
+.no-border-radius {
+  width:100vh;
+  padding-bottom: 10px;
+  margin-top: 436px;
+  border-radius: 15px;
+}
+.accepted{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  margin-left: -30px;
+  flex-wrap: wrap;
+}
+.sent-message {
+  text-align: right;
+}
+
+.received-message {
+  text-align: left;
+}
+.send{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    overflow-y: auto;
+    
+}
+.friend-message :left{
+  text-align: left; 
+}
+.row{
+  display: flex;
+}
+.horizontal{
+   overflow-y: auto;
+}
+  .mainchat{    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    position: relative;
+    overflow-x: hidden;
+    height: calc(100% - 150px);
+    overflow: hidden auto;
+ } 
+ .chat-date{
+  text-align: center;
+  width: 90px;
+  background-color: white;
+  padding: 3px;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: #6a6a6b;
+  
+ }
+ .chat-dates{
+  text-align: center;
+  width: 90px;
+  background-color: #c2c2c5;
+  padding: 3px;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: black;
+  
+ }
+ .input-styles {
+  width: 780px;
+  font-size: 18px;
+  position: absolute;
+  padding-left: 20px;
+  bottom: 0px;
+  margin-left: 100px;
+  height: 40px;
+  border-radius: 10px;
+  padding: 10px;
+  align-items: center;
+  border-color: white;
+}
+.rocket {
+  width: 45px;
+  height: 45px;
+  margin-top: -40px;
+  margin-right: 15px;
+}
+
+ .red-card{
+    cursor: pointer;
+    color: red;
+    width: 150px;
+    border-color: red;
+    padding: 3px;
+  
+ }
+ .red-card:hover{
+  background-image: linear-gradient(to right,rgb(247, 167, 179),lightcoral);
+  color: white;
+ border-color:white;
+}
+.green-card{
+  cursor: pointer;
+    color: green;
+    width: 150px;
+    border-color: green;
+    padding: 3px;
+  
+}
+.green-card:hover{
+  background-image: linear-gradient(to right,rgb(115, 201, 115),lightgreen);
+  color: white;
+ border-color:white;
+}
+.attachContainer{
+ 
+    width: 440px;
+    gap: 50px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.textStyleGreen {
+  color: white;
+  margin-left: 120px;
+  margin-top: -20px;
+}
+.textStyleGreens {
+  color: white;
+  margin-right: 5px;
+  margin-top: -3px;
+}
+/* .textStyleReds {
+  color: white;
+  margin-top: -3px;
+  margin-right: 5px;
+ 
+} */
+.textStyleRed {
+  color: white;
+  margin-left: 120px;
+  margin-top: -20px;
+}
+.circleStyleGreen {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 0;
+  position: relative;
+  vertical-align: middle;
+  background-color: green;
+}
+.circleStyleGreens {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 0;
+  position: relative;
+  vertical-align: middle;
+  background-color: green;
+}
+/* .circleStyleReds{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 0;
+  position: relative;
+  vertical-align: middle;
+  background-color: red;
+  
+} */
+.circleStyleRed {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 0;
+  position: relative;
+  vertical-align: middle;
+  background-color: red;
+}
+.centeredText {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 17px;
+}
+.centeredTexts {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 11px;
+}
+@media screen and ((min-width: 340px) and (max-width: 391px)) {
+  .card-container{
+    height: 100vh;
+    width: 100%
+  }
+   .containers {
+   width: 105%;
+   } 
+   .chats{
+    width: 100%; 
+    gap:40%;
+  }
+  .friend-info{
+    width: 250px;
+    margin-left: 10px;
+  }
+  .containerBackground {
+    margin-top: -680px;
+    height: 100vh;
+  
+  }
+  .usernameFriend{
+    gap:12em
+    
+  }
+  .mainchat{
+    width: 100%;
+  }
+  .chat-date {
+  font-size: 13px;
+  margin-left: 150px;
+  font-size: 12px;
+}
+.customBox {
+  margin-left: -20px;
+  margin-right:61%;
+}
+.chat-dates{
+  margin-right: 77%;
+}
+ .customPaymentBox{
+  margin-bottom: 10px;
+ margin-right: 620px;
+  }
+.footer{
+  width: 105%;
+}
+.input-styles{
+width:67%;
+margin-left: 50px;
+}
+.rocket{
+  height: 35px;
+  width: 35px;
+  margin-right: 0%;
+  margin-bottom: 4px;
+}
+.attachmentIcon {
+  margin-left: 30px;
+  font-size: 23px;
+  margin-top: 15px;
+}
+.red-card{
+  width: 120px;
+}
+.green-card{
+  width: 120px;
+}
+.attachContainer {
+  margin-left: -10px;
+  gap:30px
+}
+.textStyleRed{
+  margin-left: 90px;
+}
+.textStyleGreen{
+  margin-left: 90px;
+}
+} 
+@media screen and ((min-width: 391px) and (max-width: 440px)) {
+  .card-container{
+    height: 100vh;
+    width: 100%
+  }
+   .containers {
+   width: 105%;
+   } 
+   .chats{
+    width: 100%; 
+    gap:60%;
+  }
+  .friend-info{
+    width: 300px;
+    margin-left: 10px;
+  }
+  .containerBackground {
+    margin-top: -680px;
+    height: 100vh;
+  
+  }
+  .usernameFriend{
+    gap:15em
+    
+  }
+  .mainchat{
+    width: 100%;
+    
+  }
+  .chat-date {
+  font-size: 13px;
+  margin-left: 200px;
+}
+.customBox {
+  margin-left: 14px;
+  margin-right:60%;
+}
+.chat-dates{
+  margin-right: 75%;
+}
+ .customPaymentBox{
+  margin-bottom: 10px;
+ margin-right: 570px;
+  }
+.footer{
+  width: 105%;
+}
+.input-styles{
+width:67%;
+margin-left: 80px;
+}
+.rocket{
+  height: 35px;
+  width: 35px;
+  margin-right: 0%;
+  margin-bottom: 4px;
+}
+.attachmentIcon {
+  margin-left: 30px;
+  font-size: 23px;
+  margin-top: 15px;
+}
+.red-card{
+  width: 120px;
+}
+.green-card{
+  width: 120px;
+}
+.attachContainer {
+  margin-left: 10px;
+  gap:30px
+}
+.textStyleRed{
+  margin-left: 90px;
+}
+.textStyleGreen{
+  margin-left: 90px;
+}
+} 
+@media screen and ((min-width: 441px) and (max-width: 490px)) {
+  .card-container{
+    height: 100vh;
+    width: 100%
+  }
+   .containers {
+   width: 105%;
+   } 
+   .chats{
+    width: 100%; 
+    gap:60%;
+  }
+  .friend-info{
+    width: 300px;
+    margin-left: 10px;
+  }
+  .containerBackground {
+    margin-top: -680px;
+    height: 100vh;
+  
+  }
+  .usernameFriend{
+    gap:17em
+    
+  }
+  .mainchat{
+    width: 100%
+  }
+  .chat-date {
+  font-size: 13px;
+  margin-left: 200px;
+}
+.customBox {
+  margin-left: 25px;
+  margin-right: 55%;
+}
+.chat-dates{
+  margin-right: 70%;
+}
+ .customPaymentBox{
+  margin-bottom: 10px;
+ margin-right: 520px;
+  }
+.footer{
+  width: 105%;
+}
+.input-styles{
+width:67%;
+margin-left: 80px;
+}
+.rocket{
+  height: 35px;
+  width: 35px;
+  margin-right: 0%;
+  margin-bottom: 4px;
+}
+.attachmentIcon {
+  margin-left: 30px;
+  font-size: 23px;
+  margin-top: 15px;
+}
+.red-card{
+  width: 120px;
+}
+.green-card{
+  width: 120px;
+}
+.attachContainer {
+  margin-left: 50px;
+  gap:30px
+}
+.textStyleRed{
+  margin-left: 90px;
+}
+.textStyleGreen{
+  margin-left: 90px;
+}
+} 
+@media screen and ((min-width: 491px) and (max-width: 550px)) {
+  .card-container{
+    height: 100vh;
+    width: 100%
+  }
+  .containers {
+   width: 105%;
+   }
+   .chats{
+    width: 100%; 
+    gap:60%;
+  }
+  .friend-info{
+    width: 350px;
+    margin-left: 10px;
+  }
+  .containerBackground {
+    margin-top: -680px;
+    height: 100vh;
+  
+  }
+  .usernameFriend{
+    gap:18em
+    
+  }
+  .mainchat{
+    width: 100%
+  }
+  .chat-date {
+  font-size: 13px;
+  margin-left: 250px;
+}
+.customBox {
+  margin-left: 10px;
+   margin-right: 50%;
+   
+}
+.chat-dates{
+  margin-right: 70%;
+}
+ .customPaymentBox{
+  margin-bottom: 10px;
+ margin-right: 470px;
+  }
+.footer{
+  width: 105%;
+}
+.input-styles{
+width:68%;
+margin-left: 80px;
+}
+.rocket{
+  height: 35px;
+  width: 35px;
+  margin-right: 5%;
+  margin-bottom: 4px;
+}
+.attachmentIcon {
+  margin-left: 30px;
+  font-size: 23px;
+  margin-top: 15px;
+}
+.red-card{
+  width: 120px;
+}
+.green-card{
+  width: 120px;
+}
+.attachContainer {
+  margin-left: 50px;
+  gap:30px
+}
+.textStyleRed{
+  margin-left: 90px;
+}
+.textStyleGreen{
+  margin-left: 90px;
+}
+} 
+@media screen and ((min-width: 551px) and (max-width: 620px)) {
+  .card-container{
+    height: 100vh;
+    width: 100%
+  }
+  .containers {
+   width: 105%;
+   }
+   .chats{
+    width: 100%; 
+    gap:60%;
+  }
+  .friend-info{
+    width: 350px;
+    margin-left: 10px;
+  }
+  .containerBackground {
+    margin-top: -680px;
+    height: 100vh;
+  
+  }
+  .usernameFriend{
+    gap:23em
+    
+  }
+  .mainchat{
+    width: 100%
+  }
+  .chat-date {
+  font-size: 13px;
+  margin-left: 300px;
+}
+.customBox {
+  margin-left: 10px;
+   margin-right: 45%;
+   max-width: 40%
+}
+.chat-dates{
+  margin-right: 60%;
+}
+ .customPaymentBox{
+  margin-bottom: 10px;
+ margin-right: 400px;
+  }
+.footer{
+  width: 105%;
+}
+.input-styles{
+width:68%;
+margin-left: 80px;
+}
+.rocket{
+  height: 35px;
+  width: 35px;
+  margin-right: 5%;
+  margin-bottom: 4px;
+}
+.attachmentIcon {
+  margin-left: 30px;
+  font-size: 23px;
+  margin-top: 15px;
+}
+.red-card{
+  width: 120px;
+}
+.green-card{
+  width: 120px;
+}
+.attachContainer {
+  margin-left: 100px;
+  gap:30px
+}
+.textStyleRed{
+  margin-left: 90px;
+}
+.textStyleGreen{
+  margin-left: 90px;
+}
+} 
+@media screen and ((min-width: 621px) and (max-width: 720px)) {
+  .card-container{
+    height: 100vh;
+    width: 100%
+  }
+  .containers {
+   width: 105%;
+   }
+   .chats{
+    width: 100%; 
+    gap:60%;
+  }
+  .friend-info{
+    width: 350px;
+    margin-left: 10px;
+  }
+  .containerBackground {
+    margin-top: -680px;
+    height: 100vh;
+  
+  }
+  .usernameFriend{
+    gap:29em
+    
+  }
+  .mainchat{
+    width: 100%
+  }
+  .chat-date {
+  font-size: 13px;
+  margin-left: 300px;
+}
+.customBox {
+  margin-left: 30px;
+   margin-right: 35%;
+   
+}
+.chat-dates{
+  margin-right: 60%;
+}
+ .customPaymentBox{
+  margin-bottom: 10px;
+ margin-right: 330px;
+  }
+  
+.footer{
+  width: 105%;
+}
+.input-styles{
+width:68%;
+margin-left: 80px;
+}
+.rocket{
+  height: 35px;
+  width: 35px;
+  margin-right: 5%;
+  margin-bottom: 4px;
+}
+.attachmentIcon {
+  margin-left: 30px;
+  font-size: 23px;
+  margin-top: 15px;
+}
+.red-card{
+  width: 120px;
+}
+.green-card{
+  width: 120px;
+}
+.attachContainer {
+  margin-left: 100px;
+  gap:30px
+}
+.textStyleRed{
+  margin-left: 90px;
+}
+.textStyleGreen{
+  margin-left: 90px;
+}
+} 
+@media only screen and (min-width: 721px)and (max-width:780px) {
+  .card-container{
+    height: 100vh
+  }
+  
+  .containerBackground {
+    margin-top: -675px;
+    height: 100vh;
+    margin-left: 400px;
+    width: 100%;
+  }
+  .headerBackground {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 100%;
+   height: 70px;
+   background-color: #f0f2f5;
+ }
+ .usernameFriend{
+   gap:19em
+   
+ }
+  .mainchat{
+    width: 100%;
+  }
+  .chat-date {
+  font-size: 13px;
+ margin-left: 150px;
+ }
+ .customBox {
+  margin-left: 10px;
+  margin-right: 40%;
+ }
+ .chat-dates{
+  margin-right: 70%;
+}
+ .customPaymentBox{
+  margin-bottom: 10px;
+ margin-right: 140px;
+  }
+  .paymentImage{
+    margin-left: -40px;
+    margin-right: 50px;
+  }
+ .footer{
+  width: 100%;
+ }
+ .input-styles{
+ width: 35%;
+ margin-left: 50px;
+ 
+ 
+ }
+ .rocket{
+  height: 35px;
+  width:35px;
+  margin-right: 52%;
+  margin-bottom: 4px;
+ }
+ .attachmentIcon {
+  margin-left:18px;
+  
+  font-size: 22px;
+  margin-top: 15px;
+ }
+ .red-card{
+  width: 120px;
+ }
+ .green-card{
+  width: 120px;
+ }
+ .attachContainer {
+  margin-left: center;
+  gap:30px
+ }
+ .textStyleRed{
+  margin-left: 90px;
+ }
+ .textStyleGreen{
+  margin-left: 90px;
+ }
+ } 
+@media only screen and (min-width: 781px)and (max-width: 840px) {
+  .card-container{
+    height: 100vh
+  }
+  
+  .containerBackground {
+    margin-top: -675px;
+    height: 100vh;
+    margin-left: 400px;
+    width: 100%;
+  }
+  .headerBackground {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 100%;
+   height: 70px;
+   background-color: #f0f2f5;
+ }
+ .usernameFriend{
+   gap:19em
+   
+ }
+  .mainchat{
+    width: 100%;
+  }
+  .chat-date {
+  font-size: 13px;
+ margin-left: 200px;
+ }
+ .customBox {
+  margin-left: 15px;
+  margin-right: 35%;
+ }
+ .chat-dates{
+  margin-right: 60%;
+}
+ .customPaymentBox{
+  margin-bottom: 10px;
+ margin-right: 120px;
+  }
+  .paymentImage{
+    margin-left: -40px;
+    margin-right: 50px;
+  }
+ .footer{
+  width: 100%;
+ }
+ .input-styles{
+ width: 40%;
+ margin-left: 50px;
+ 
+ 
+ }
+ .rocket{
+  height: 35px;
+  width:35px;
+  margin-right: 47%;
+  margin-bottom: 4px;
+ }
+ .attachmentIcon {
+  margin-left:18px;
+  
+  font-size: 22px;
+  margin-top: 15px;
+ }
+ .red-card{
+  width: 120px;
+ }
+ .green-card{
+  width: 120px;
+ }
+ .attachContainer {
+  margin-left: center;
+  gap:30px
+ }
+ .textStyleRed{
+  margin-left: 90px;
+ }
+ .textStyleGreen{
+  margin-left: 90px;
+ }
+ } 
+@media only screen and (min-width: 841px)and (max-width: 940px) {
+  .card-container{
+    height: 100vh
+  }
+  
+  .containerBackground {
+    margin-top: -675px;
+    height: 100vh;
+    margin-left: 400px;
+    width: 100%;
+  }
+  .headerBackground {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 100%;
+   height: 70px;
+   background-color: #f0f2f5;
+ }
+ .usernameFriend{
+   gap:19em
+   
+ }
+  .mainchat{
+    width: 100%;
+  }
+  .chat-date {
+  font-size: 13px;
+ margin-left: 220px;
+ }
+ .customBox {
+  margin-left: 10px;
+  margin-right: 27%;
+ }
+.chat-dates{
+  margin-right: 50%;
+}
+ .customPaymentBox{
+  margin-bottom: 10px;
+ margin-right: 100px;
+  }
+  .paymentImage{
+    margin-left: -40px;
+    margin-right: 50px;
+  }
+ 
+ .footer{
+  width: 100%;
+ }
+ .input-styles{
+ width: 42%;
+ margin-left: 60px;
+ 
+ 
+ }
+ .rocket{
+  height: 35px;
+  width:35px;
+  margin-right: 45%;
+  margin-bottom: 4px;
+ }
+ .attachmentIcon {
+  margin-left:20px;
+  
+  font-size: 22px;
+  margin-top: 15px;
+ }
+ .red-card{
+  width: 120px;
+ }
+ .green-card{
+  width: 120px;
+ }
+ .attachContainer {
+  margin-left: center;
+  gap:30px
+ }
+ .textStyleRed{
+  margin-left: 90px;
+ }
+ .textStyleGreen{
+  margin-left: 90px;
+ }
+ } 
+@media only screen and (min-width: 941px)and (max-width: 1040px) {
+  .card-container{
+    height: 100vh
+  }
+  
+  .containerBackground {
+    margin-top: -675px;
+    height: 100vh;
+    margin-left: 400px;
+    width: 100%;
+  }
+  .headerBackground {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 100%;
+   height: 70px;
+   background-color: #f0f2f5;
+ }
+ .usernameFriend{
+   gap:25em
+   
+ }
+  .mainchat{
+    width: 100%;
+  }
+  .chat-dates{
+    margin-right: 400px;
+  }
+  .chat-date {
+  font-size: 13px;
+  margin-left: 280px;
+ }
+ .customBox {
+  margin-left: 10px;
+  margin-right: 20%;
+ 
+ }
+ .customPaymentBox{
+  margin-bottom: 10px;
+
+ margin-right: 100px;
+  }
+  .paymentImage{
+    margin-left: -40px;
+    margin-right: 50px;
+  }
+ .footer{
+  width: 100%;
+ }
+ .input-styles{
+ width: 44%;
+ margin-left: 80px;
+ 
+ 
+ }
+ .rocket{
+  height: 40px;
+  width:40px;
+  margin-right: 40%;
+  margin-bottom: 4px;
+ }
+ .attachmentIcon {
+  margin-left:30px;
+  
+  font-size: auto;
+  margin-top: 15px;
+ }
+ .red-card{
+  width: 120px;
+ }
+ .green-card{
+  width: 120px;
+ }
+ .attachContainer {
+  margin-left: center;
+  gap:30px
+ }
+ .textStyleRed{
+  margin-left: 90px;
+ }
+ .textStyleGreen{
+  margin-left: 90px;
+ }
+ } 
+@media only screen and (min-width: 1041px)and (max-width: 1140px) {
+  .card-container{
+    height: 100vh
+  }
+  
+  .containerBackground {
+    margin-top: -675px;
+    height: 100vh;
+    margin-left: 400px;
+    width: 100%;
+  }
+  .headerBackground {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 100%;
+   height: 70px;
+   background-color: #f0f2f5;
+ }
+ .usernameFriend{
+   gap:31em
+   
+ }
+  .mainchat{
+    width: 100%;
+  }
+  .chat-date {
+  font-size: 15px;
+ }
+ .chat-dates{
+  margin-right: 400px;
+ }
+ .customBox {
+  margin-left: 20px;
+  margin-right: 110px;
+ }
+ .customPaymentBox{
+  margin-bottom: 10px;
+  margin-right: 100px;
+  }
+  
+ .footer{
+  width: 100%;
+ }
+ .input-styles{
+ width: 48%;
+ margin-left: center;
+
+ }
+ .rocket{
+  height: 40px;
+  width:40px;
+  margin-right: 37%;
+  margin-bottom: 4px;
+ }
+ .attachmentIcon {
+  margin-left:40px;
+  font-size: auto;
+  margin-top: 15px;
+ }
+ .red-card{
+  width: 120px;
+ }
+ .green-card{
+  width: 120px;
+ }
+ .attachContainer {
+  margin-left: center;
+  gap:30px
+ }
+ .textStyleRed{
+  margin-left: 90px;
+ }
+ .textStyleGreen{
+  margin-left: 90px;
+ }
+ }  
+@media only screen and (min-width: 1141px)and (max-width: 1250px) {
+  .card-container{
+    height: 100vh
+  }
+  
+  .containerBackground {
+    margin-top: -675px;
+    height: 100vh;
+    margin-left: 400px;
+    width: 100%;
+  }
+  .headerBackground {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   width: 100%;
+   height: 70px;
+   background-color: #f0f2f5;
+ }
+ .usernameFriend{
+   gap:38em
+   
+ }
+  .mainchat{
+    width: 100%;
+    margin-top: 20px;
+  }
+  .chat-date {
+  font-size: 16px;
+ }
+ .chat-dates{
+  margin-right: center;
+ }
+ .customBox {
+  margin-left: 20px;
+  margin-right: 80px;
+ }
+ .customPaymentBox{
+  margin-bottom: 20px;
+  }
+  .paymentImage{
+    margin-left: -50px;
+    margin-right: 70px;
+  }
+ .footer{
+  width: 100%;
+ }
+ .input-styles{
+ width: 53%;
+ margin-left: center;
+ }
+ .rocket{
+  height: 40px;
+  width:40px;
+  margin-right: 33%;
+  margin-bottom: 4px;
+ }
+ .attachmentIcon {
+  margin-left:40px;
+  font-size: auto;
+  margin-top: 15px;
+ }
+ .red-card{
+  width: 120px;
+ }
+ .green-card{
+  width: 120px;
+ }
+ .attachContainer {
+  margin-left: center;
+  gap:30px
+ }
+ .textStyleRed{
+  margin-left: 90px;
+ }
+ .textStyleGreen{
+  margin-left: 90px;
+ }
+ }  
+ @media only screen and (min-width: 1251px)and (max-width: 1356px) {
+ .card-container{
+   height: 100vh
+ }
+ .containerBackground {
+   margin-top: -675px;
+   height: 100vh;
+   margin-left: 400px;
+   width: 100%;
+ }
+ .headerBackground {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  background-color: #f0f2f5;
+}
+.usernameFriend{
+  gap:45em
+  
+}
+ .mainchat{
+   width: 100%;
+   margin-top: 10px;
+ }
+ .chat-date {
+ font-size: 16px;
+}
+.customBox {
+ /* margin-left: 10px; */
+ margin-right: 40px;
+}
+.customPaymentBox{
+margin-bottom: 20px;
+}
+.paymentImage{
+  margin-left: -40px;
+  margin-right: 40px;
+}
+.footer{
+ width: 100%;
+}
+.input-styles{
+width: 57%;
+margin-left:center;
+
+}
+.rocket{
+ height: 40px;
+ width:40px;
+ margin-right: 380px;
+ margin-bottom: 4px;
+}
+.attachmentIcon {
+ margin-left:40px;
+ font-size: auto;
+ margin-top: 15px;
+}
+.red-card{
+ width: 120px;
+}
+.green-card{
+ width: 120px;
+}
+.attachContainer {
+ margin-left: center;
+ gap:30px
+}
+.textStyleRed{
+ margin-left: 90px;
+}
+.textStyleGreen{
+ margin-left: 90px;
+}
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

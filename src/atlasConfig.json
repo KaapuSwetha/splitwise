@@ -1,0 +1,9 @@
+{
+    "appId": "application-0-ovterla",
+    "appUrl": "https://services.cloud.mongodb.com/groups/61652bd1781d054e85e3fe76/apps/6644a4894506691a13701b97",
+    "baseUrl": "https://services.cloud.mongodb.com",
+    "clientApiBaseUrl": "https://ap-south-1.aws.services.cloud.mongodb.com",
+    "dataApiBaseUrl": "https://ap-south-1.aws.data.mongodb-api.com",
+    "dataExplorerLink": "https://cloud.mongodb.com/links/61652bd1781d054e85e3fe76/explorer/RK/database/collection/find",
+    "dataSourceName": "mongodb-atlas"
+}
